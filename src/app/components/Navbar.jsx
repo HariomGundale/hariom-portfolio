@@ -1,9 +1,12 @@
 import Link from "next/link";
+import { Archivo_Black } from "next/font/google";
+
+const archivoBlack = Archivo_Black({ subsets: ["latin"], weight: ["400"] });
 
 export default function Navbar() {
     return (
         <nav className="sticky top-0 z-50 w-full px-6 py-4 flex justify-between items-center bg-[#0b0d12]">
-            <h1 className="text-xl font-bold px-20">Hariom's Portfolio</h1>
+            <h1 className={`${archivoBlack.className} text-xl bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 bg-clip-text text-transparent font-bold px-20`}>Hariom's Portfolio</h1>
 
             <ul className="flex gap-7 pr-30 ">
                 <li className="cursor-pointer hover:text-purple-500">

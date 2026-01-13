@@ -85,7 +85,7 @@ export default function Home() {
               Welcome to my portfolio 👋
             </span>
           </motion.div>
-
+          
           {/* 2. Headline */}
           <motion.h1
             variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
@@ -98,7 +98,7 @@ export default function Home() {
 
           {/* 3. Professional Titles */}
           <motion.div variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}>
-            <p className="text-lg font-semibold text-gray-200 mb-1">
+            <p className="text-lg pb-2 font-semibold text-gray-200 mb-1">
               Full-Stack Web Developer
             </p>
             <p className="text-sm text-purple-300/80 font-medium mb-6 italic">
