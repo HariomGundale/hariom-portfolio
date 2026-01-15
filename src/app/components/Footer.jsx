@@ -49,7 +49,7 @@ export default function Footer() {
                 </div>
 
                 {/* Navigation Column */}
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4 md:pl-30 ">
                     <h2 className="font-bold text-base text-gray-200">Quick Links</h2>
 
                     <ul className="flex flex-col gap-3 text-gray-400 text-sm">
@@ -72,7 +72,7 @@ export default function Footer() {
                 </div>
 
                 {/* Social Column */}
-                <div className="flex flex-col gap-4 text-sm text-gray-400">
+                <div className="flex flex-col gap-4 text-sm text-gray-400 md:pl-10">
                     <h2 className="font-semibold text-base text-gray-200">Social Info</h2>
 
                     <div className="flex flex-col gap-2.5 items-start">

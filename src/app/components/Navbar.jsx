@@ -55,7 +55,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <h1
-          className={`${archivoBlack.className} text-xl bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 bg-clip-text text-transparent font-bold px-6`}
+          className={`${archivoBlack.className} text-xl text-white bg-clip-text text-transparent font-bold px-6`}
         >
           Hariom's Portfolio
         </h1>

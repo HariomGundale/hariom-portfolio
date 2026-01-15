@@ -71,8 +71,9 @@ export default function Home() {
           >
             <span className="h-[1px] w-8 bg-purple-500 hidden md:block"></span>
             <span className="text-xs sm:text-sm font-medium tracking-widest uppercase text-purple-400">
-              Welcome to my portfolio 👋
+              Welcome to my portfolio
             </span>
+            <span className="h-[1px] w-8 bg-purple-500 hidden md:block"></span>
           </motion.div>
 
           {/* Name */}
@@ -80,7 +81,7 @@ export default function Home() {
             variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
             className="text-2xl sm:text-4xl lg:text-6xl font-extrabold leading-tight mb-3 sm:mb-4"
           >
-            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
+            <span className="">
               Hariom Gundale
             </span>
           </motion.h1>
