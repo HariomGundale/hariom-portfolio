@@ -61,7 +61,7 @@ export default function AboutPage() {
                             EDUCATION
                         </motion.h2>
 
-                        <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-[#FFCDC9]/60 to-transparent my-7 blur-[1px]" />
+                        <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-[#FFCDC9]/60 to-transparent my-9 blur-[1px]" />
 
                         {/* Content Grid */}
                         <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2">
