@@ -133,7 +133,7 @@ export default function AboutPage() {
                                 </p>
 
                                 <p className="text-sm text-gray-400">
-                                    2022 – Present
+                                    2024 – 2028
                                 </p>
 
                                 <p className="max-w-xl text-base leading-relaxed text-gray-300">
