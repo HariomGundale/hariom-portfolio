@@ -1,11 +1,39 @@
 "use client";
 import { motion } from "framer-motion";
+import {
+    SiHtml5,
+    SiCss3,
+    SiJavascript,
+    SiReact,
+    SiNextdotjs,
+    SiNodedotjs,
+    SiMongodb,
+    SiTailwindcss, SiGit, SiGithub
+} from "react-icons/si";
 
 export default function AboutPage() {
 
     const box = {
         borderRadius: 5,
     }
+
+    const tech = [
+        { name: "HTML", icon: SiHtml5 },
+        { name: "CSS", icon: SiCss3 },
+        { name: "JavaScript", icon: SiJavascript },
+        { name: "React", icon: SiReact },
+        { name: "Next.js", icon: SiNextdotjs },
+        { name: "Node.js", icon: SiNodedotjs },
+        { name: "MongoDB", icon: SiMongodb },
+        { name: "Tailwind CSS", icon: SiTailwindcss },
+        { name: "Git", icon: SiGit },
+        { name: "GitHub", icon: SiGithub },
+    ];
+
+    const soft = [
+        "Problem Solving", "Communication", "Team Collaboration",
+        "Time Management", "Adaptability", "Critical Thinking",
+    ]
 
     return (
         <main className="min-h-screen relative overflow-hidden bg-[#0b0d12] text-white flex items-center py-6 sm:py-10 px-4 sm:px-8 md:pl-16 lg:pl-24">
@@ -147,32 +175,21 @@ export default function AboutPage() {
                                     viewport={{ once: true }}
                                     transition={{ duration: 0.7, ease: "easeOut" }}
                                     whileHover={{ scale: 1.1 }}
-                                whileTap={{ scale: 0.8 }}
-                                style={box}
+                                    whileTap={{ scale: 0.8 }}
+                                    style={box}
                                 >
                                     <h3 className="mb-6 text-xl font-semibold text-white text-center">
                                         Technical Skills
                                     </h3>
                                     <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-[#FFCDC9]/60 to-transparent my-5 blur-[1px]" />
                                     <div className="flex flex-wrap gap-3">
-                                        {[
-                                            "HTML",
-                                            "CSS",
-                                            "JavaScript",
-                                            "React",
-                                            "Next.js",
-                                            "Node.js",
-                                            "Express",
-                                            "MongoDB",
-                                            "Tailwind CSS",
-                                            "Git",
-                                            "REST APIs",
-                                        ].map((skill) => (
+                                        {tech.map(({ name, icon: Icon }) => (
                                             <span
-                                                key={skill}
-                                                className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-300 transition-all duration-300 hover:border-cyan-400/60 hover:text-white hover:shadow-[0_0_15px_rgba(34,211,238,0.35)]"
-                                            >
-                                                {skill}
+                                                key={name}
+                                                className="flex items-center gap-2 rounded-full border border-white/15 px-4 py-2 text-sm text-gray-300 transition-all duration-300 hover:border-cyan-400/60 hover:text-white hover:shadow-[0_0_15px_rgba(34,211,238,0.35)]"
+                                            ><Icon className="text-base text-gray-400 transition-colors duration-300 group-hover:text-cyan-400" />
+                                                {name}
+
                                             </span>
                                         ))}
                                     </div>
@@ -188,22 +205,15 @@ export default function AboutPage() {
                                     viewport={{ once: true }}
                                     transition={{ duration: 0.7, ease: "easeOut" }}
                                     whileHover={{ scale: 1.1 }}
-                                whileTap={{ scale: 0.8 }}
-                                style={box}
+                                    whileTap={{ scale: 0.8 }}
+                                    style={box}
                                 >
                                     <h3 className="mb-6 text-xl font-semibold text-white text-center" >
                                         Soft Skills
                                     </h3>
-                                        <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-[#FFCDC9]/60 to-transparent my-5 blur-[1px]" />
+                                    <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-[#FFCDC9]/60 to-transparent my-5 blur-[1px]" />
                                     <div className="flex flex-wrap gap-3">
-                                        {[
-                                            "Problem Solving",
-                                            "Communication",
-                                            "Team Collaboration",
-                                            "Time Management",
-                                            "Adaptability",
-                                            "Critical Thinking",
-                                        ].map((skill) => (
+                                        {soft.map((skill) => (
                                             <span
                                                 key={skill}
                                                 className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-300 transition-all duration-300 hover:border-purple-400/60 hover:text-white hover:shadow-[0_0_15px_rgba(168,85,247,0.35)]"
