@@ -43,7 +43,7 @@ export default function AboutPage() {
             <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.04)_1px,transparent_1px)] bg-[size:40px_40px] opacity-20"></div>
             <div className="absolute top-[-200px] right-[-200px] w-[500px] h-[500px] bg-purple-600/20 blur-[120px] rounded-full"></div>
             <div>
-                <section className="relative w-full bg-transparent">
+                <section className="relative w-full bg-transparent py-20 px-6">
                     <div className="mx-auto max-w-5xl px-4 py-15 sm:py-15 lg:py-12">
 
                         {/* About Heading */}
