@@ -5,6 +5,8 @@ import { useEffect, useState, useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 
+
+
 const archivoBlack = Archivo_Black({ subsets: ["latin"], weight: ["400"] });
 
 export default function Navbar() {

@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect } from "react";
 
+
+
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -89,7 +91,7 @@ export default function Home() {
           {/* Titles */}
           <motion.div variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}>
             <p className="text-base sm:text-lg pb-1 font-semibold text-gray-200 mb-1">
-              Full-Stack Web Developer
+              Full-Stack Developer
             </p>
             <p className="text-xs sm:text-sm text-purple-300/80 font-medium mb-4 sm:mb-6 italic">
               B.Tech Computer Engineering Student
