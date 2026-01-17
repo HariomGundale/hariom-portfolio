@@ -44,7 +44,7 @@ export default function AboutPage() {
             <div className="absolute top-[-200px] right-[-200px] w-[500px] h-[500px] bg-purple-600/20 blur-[120px] rounded-full"></div>
             <div>
                 <section className="relative w-full bg-transparent">
-                    <div className="mx-auto max-w-5xl px-6 py-15 sm:py-15 lg:py-12">
+                    <div className="mx-auto max-w-5xl px-4 py-15 sm:py-15 lg:py-12">
 
                         {/* About Heading */}
                         <motion.h1
@@ -78,7 +78,7 @@ export default function AboutPage() {
                 </section>
                 {/* Education Section */}
                 <section className="relative w-full bg-transparent">
-                    <div className="mx-auto max-w-6xl px-6 py-15 sm:py-15 lg:py-15">
+                    <div className="mx-auto max-w-6xl py-15 sm:py-15 lg:py-15">
 
                         {/* Section Heading */}
                         <motion.h2
