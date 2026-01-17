@@ -54,7 +54,7 @@ export default function Footer() {
 
                     <ul className="flex flex-col gap-3 text-gray-400 text-sm">
                         {[
-                            { name: "Home", href: "#Home" },
+                            { name: "Home", href: "/" },
                             { name: "About", href: "/about" },
                             { name: "Projects", href: "/projects" },
                             { name: "Contact", href: "/contact" },
