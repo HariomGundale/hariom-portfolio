@@ -6,7 +6,7 @@ Designed with a clean UI, smooth animations, and optimized performance.
 ---
 
 ## 🚀 Live Demo
-🔗 **Live Website:** [Add your deployed link here_](https://hariomportfolio21.vercel.app/)
+🔗 **Live Website:** [Live Demo](https://hariomportfolio21.vercel.app/)
 
 ---
 
@@ -35,4 +35,14 @@ Designed with a clean UI, smooth animations, and optimized performance.
 - Vercel (Deployment)
 - Git & GitHub
 
+---
+
+## 📬 Contact
+
+Hariom Shrikrishna Gundale
+📧 Email: hariomgundale21@gmail.com
+
+---
+
+If you like star the Repository
 ---
