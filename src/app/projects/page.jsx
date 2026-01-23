@@ -23,7 +23,7 @@ const cardVariants = {
 
 export default function ProjectsPage() {
   return (
-    <main className="min-h-screen relative overflow-hidden bg-[#0b0d12] text-white py-10 px-4 sm:px-8 md:px-16 lg:px-24">
+    <main className="min-h-screen relative overflow-hidden bg-[#0b0d12] text-white py-10 px-4 sm:px-8">
       
       {/* Background */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.04)_1px,transparent_1px)] bg-[size:40px_40px] opacity-20" />

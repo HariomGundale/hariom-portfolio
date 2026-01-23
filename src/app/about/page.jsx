@@ -38,7 +38,7 @@ export default function AboutPage() {
     ]
 
     return (
-        <main className="min-h-screen relative overflow-hidden bg-[#0b0d12] text-white flex items-center sm:py-10 px-4 sm:px-8 md:pl-16 lg:pl-24">
+        <main className="min-h-screen relative overflow-hidden bg-[#0b0d12] text-white flex items-center justify-center sm:py-10 px-4 sm:px-8">
             {/* Background Elements */}
             <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.04)_1px,transparent_1px)] bg-[size:40px_40px] opacity-20"></div>
             <div className="absolute top-[-200px] right-[-200px] w-[500px] h-[500px] bg-purple-600/20 blur-[120px] rounded-full"></div>
